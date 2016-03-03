@@ -1,0 +1,43 @@
+export LAGODV_PROJECT_NAME="lagodv"
+export LAGODV_DOMAIN_NAME="djeng.co"
+export LAGODV_PRODUCTION_PORT="8000"
+
+export LAGODV_VIRTUALENV="lagodv"
+export LAGODV_APP_LIST="geoposition:utilities:sysmoon"
+
+export LAGODV_REPOSITORY_DIR="/home/ubuntu/repositories/lagodv"
+export LAGODV_PRODUCTION_DIR="/home/ubuntu/sites/lagodv"
+
+export LAGODV_SETTINGS_ROOT="${LAGODV_PRODUCTION_DIR}/settings"
+export LAGODV_STATIC_ROOT="${LAGODV_PRODUCTION_DIR}/static"
+export LAGODV_MEDIA_ROOT="${LAGODV_PRODUCTION_DIR}/media"
+export LAGODV_LOGS_ROOT="${LAGODV_PRODUCTION_DIR}/logs"
+
+export LAGODV_NGINX_CONF_TEMPLATE="${LAGODV_SETTINGS_ROOT}/nginx.template"
+export LAGODV_UWSGI_INI_TEMPLATE="${LAGODV_SETTINGS_ROOT}/uwsgi.template"
+
+export LAGODV_CONDA_REQUERIMENTS_FILE="${LAGODV_SETTINGS_ROOT}/conda.req"
+export LAGODV_PIP_REQUERIMENTS_FILE="${LAGODV_SETTINGS_ROOT}/pip.req"
+
+export LAGODV_SECRET_KEY="52usr^50@%x=oh#jm84qdvts_#%5hs2)s+fr)mwnp5*is-x)y\!"
+export LAGODV_DEBUG_SITE=false
+export LAGODV_ALLOWED_HOSTS="*"
+
+export LAGODV_DEBUG_TEMPLATE=false
+export LAGODV_DB_ENGINE="django.db.backends.mysql"
+export LAGODV_DB_NAME="lagodv_db"
+export LAGODV_DB_USER="lagodv_db_admin"
+export LAGODV_DB_PASSWORD="DJD3V3L0PM3NT"
+export LAGODV_DB_HOST="localhost"
+
+export LAGODV_EMAIL_HOST="127.0.0.1"
+export LAGODV_EMAIL_SUBJECT_PREFIX="[DJEngineering WEB]"
+export LAGODV_DEFAULT_FROM_EMAIL="Lago Data Visualizer <lagodv@lagodv.production.server>"
+
+export LAGODV_TIME_ZONE=$(cd /usr/share/zoneinfo && find * -type f -exec sh -c "diff -q /etc/localtime '{}' > /dev/null && echo {}" \;)
+
+export LAGODV_PIPELINE_ENABLED=true
+
+export LAGODV_GOOGLE_API_KEY="AIzaSyCMloET0G14IbAwU4xdeQPbZOriuW1njnM"
+export LAGODV_GOOGLE_RECAPTCHA_PUBLIC_KEY="6LefrAoTAAAAAMa3Trdua9XQtFro-lzZvkz1A7pH"
+export LAGODV_GOOGLE_RECAPTCHA_PRIVATE_KEY="6LefrAoTAAAAALCzeMd_bpdM5-8rc-xVals5KTB2"

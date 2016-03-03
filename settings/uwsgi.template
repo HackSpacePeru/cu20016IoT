@@ -1,0 +1,14 @@
+[uwsgi]
+chdir           = VAR_ROOT_DIRECTORY
+home            = /opt/anaconda/envs/VAR_ENVIRONMENT_NAME
+env             = DJANGO_SETTINGS_MODULE=VAR_PROJECT_NAME.settings
+module          = VAR_PROJECT_NAME.wsgi:application
+master          = true
+no-orphans      = true
+processes       = 4
+threads         = 4
+max-requests    = 5000
+buffer-size     = 32768
+socket          = 127.0.0.1:VAR_SOCKET_PORT
+daemonize       = VAR_ACCESS_LOG_FILE
+vacuum          = true

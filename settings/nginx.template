@@ -1,0 +1,34 @@
+# Django aplication ------------------------------------------------------------
+upstream VAR_UPSTREAM_NAME {
+    server 127.0.0.1:VAR_UPSTREAM_PORT;
+}
+
+server {
+    listen 80;
+
+    server_name VAR_SERVER_NAME;
+
+    server_name_in_redirect off;
+
+    charset     utf-8;
+
+    client_max_body_size 75M;
+
+    access_log VAR_ACCESS_LOG_FILE;
+    error_log  VAR_ERRORS_LOG_FILE;
+
+    root VAR_ROOT_DIRECTORY;
+
+    location /static {
+        alias VAR_STATIC_DIRECTORY;
+    }
+
+    location /media {
+        alias VAR_MEDIA_DIRECTORY;
+    }
+
+    location / {
+        uwsgi_pass  VAR_UPSTREAM_NAME;
+        include     /etc/nginx/uwsgi_params;
+    }
+}
