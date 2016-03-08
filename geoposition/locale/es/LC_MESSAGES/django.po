@@ -1,0 +1,72 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-12-19 14:13-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: fields.py:12
+msgid "A geoposition field to store latitude, longitude and elevation data"
+msgstr ""
+"Un campo de geoposicionamiento para almacenar datos de latitud, longitud y "
+"elevación "
+
+#: forms.py:22
+#, python-format
+msgid "This value must be between %s and %s."
+msgstr "Este valor debe estar comprendido entre %s y %s."
+
+#: forms.py:24
+#, python-format
+msgid "This value must be at least %s."
+msgstr "Este valor no debe ser menor que %s."
+
+#: forms.py:26
+#, python-format
+msgid "This value must be no more than %s."
+msgstr "Este valor no debe ser mayor que %s."
+
+#: forms.py:49
+msgid "Enter a valid value for latitude."
+msgstr "Ingrese un valor válido para la latitud."
+
+#: forms.py:50
+msgid "Enter a valid value for longitude."
+msgstr "Ingrese un valor válido para la longitud."
+
+#: forms.py:51
+msgid "Enter a valid value for elevation."
+msgstr "Ingrese un valor válido para la elevación."
+
+#: forms.py:65 widgets.py:33
+msgid "latitude"
+msgstr "latitud"
+
+#: forms.py:72
+msgid "latitude must be a value between -90 and +90 degrees"
+msgstr "la latitud debe estas comprendida entre -90° y 90°"
+
+#: forms.py:77 widgets.py:37
+msgid "longitude"
+msgstr "longitud"
+
+#: forms.py:84
+msgid "longitude must be a value between -180 and +180 degrees"
+msgstr "la latitud debe estas comprendida entre -180° y 180°"
+
+#: forms.py:89 widgets.py:41
+msgid "elevation"
+msgstr "elevación"

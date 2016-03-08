@@ -1,0 +1,98 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# ZoiacFireworks <martin.vuelta@gmail.com>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: SYSMOON Base Monitoring System\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-12-26 20:15-0500\n"
+"PO-Revision-Date: 2015-12-26 20:12-0500\n"
+"Last-Translator: ZoiacFireworks <martin.vuelta@gmail.com>\n"
+"Language-Team: Español <martin.vuelta@gmail.com>\n"
+"Language: Español\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: apps.py:7
+msgid "Monitoring System"
+msgstr "Sistema de monitoreo"
+
+#: models/devices.py:42
+msgid "In service"
+msgstr "En servicio"
+
+#: models/devices.py:43
+msgid "In maintenance"
+msgstr "En mantenimiento"
+
+#: models/devices.py:44
+msgid "Out of service"
+msgstr "Fuera de servicio"
+
+#: models/devices.py:48
+msgid "device status"
+msgstr "estado del dispositivo"
+
+#: models/devices.py:52
+msgid ""
+"Designates whether this monitoring device should be treated as active. Set "
+"this to \"out of service\" instead of deleting device."
+msgstr ""
+"Indica si el dispositivo de monitoreo de ser tratado como activo. Seleccione "
+"\"fuera de servicio\" en lugar de eliminar el dispositivo"
+
+#: models/devices.py:58
+msgid "registration date"
+msgstr "fecha de registro"
+
+#: models/devices.py:64
+msgid "end of service"
+msgstr "fin de servicio"
+
+#: models/devices.py:80
+msgid "monitoring device"
+msgstr "dipositivo de monitoreo"
+
+#: models/devices.py:81
+msgid "monitoring devices"
+msgstr "dipositivos de monitoreo"
+
+#: models/devices.py:147
+msgid "position"
+msgstr "posición"
+
+#: models/devices.py:151
+msgid "geolocated monitoring device"
+msgstr "dipositivo geolocalizado de monitoreo"
+
+#: models/devices.py:152
+msgid "geolocated monitoring devices"
+msgstr "dipositivos geolocalizados de monitoreo"
+
+#: models/records.py:21
+msgid "Complete record"
+msgstr "Registro completo"
+
+#: models/records.py:22
+msgid "Empty record"
+msgstr "Registro vacío"
+
+#: models/records.py:23
+msgid "Loosy record"
+msgstr "Registro con pérdidas"
+
+#: models/records.py:27
+msgid "record status"
+msgstr "Estado del registro"
+
+#: models/records.py:33
+msgid "log date"
+msgstr "fecha de registro"
+
+#: models/records.py:40 models/records.py:41
+msgid "base record"
+msgstr "registro base"
