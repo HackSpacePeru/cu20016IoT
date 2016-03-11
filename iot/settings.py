@@ -31,6 +31,12 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'geoposition',
+    'sysmoon',
+    'utilities',
+
+    'iotapi',
+
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
